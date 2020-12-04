@@ -10,3 +10,9 @@ How to reproduce:
 
 Solution:
 - Downgrade the version of material lib to implementation 'com.google.android.material:material:1.1.0'
+
+Reported:
+https://github.com/material-components/material-components-android/issues/1897
+
+Solution suggested in the issue thread:
+Setting app:textInputLayoutFocusedRectEnabled to false in the TextInputEditText 
